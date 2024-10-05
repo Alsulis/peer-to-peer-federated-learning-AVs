@@ -28,6 +28,18 @@ The code implementing **AdmmSGD** can be found in the folder named **`edgecons`*
 - **Scikit-Learn**: Used for evaluation metrics and additional machine learning utilities.
 - **Logging and Argument Parsing**: The standard **`logging`** and **`argparse`** modules manage output and configure script parameters.
 
+## Installation
+
+1. **Clone this repository**:
+   ```bash
+   git clone https://github.com/your-username/peer-to-peer-federated-learning-AVs.git
+
+2. **Navigate to the project directory:**
+   cd peer-to-peer-federated-learning-AVs
+
+3. **Install the required dependencies:**
+   pip install -r requirements.txt
+
 ## Features
 
 * **Decentralised Intrusion Detection**: A federated learning-based IDS designed specifically for autonomous vehicle environments with peer-to-peer communication.
