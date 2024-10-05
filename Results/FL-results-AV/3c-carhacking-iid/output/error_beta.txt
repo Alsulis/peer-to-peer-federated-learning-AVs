@@ -1,0 +1,107 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1723465717.569189 2271794 config.cc:230] gRPC experiments enabled: call_status_override_on_cancellation, event_engine_dns, event_engine_listener, http2_stats_fix, monitoring_experiment, pick_first_new, trace_record_callops, work_serializer_clears_time_cache
+I0000 00:00:1723465717.576205 2271850 subchannel.cc:806] subchannel 0x91584d0 {address=ipv6:%5B::1%5D:8885, args={grpc.client_channel_factory=0x7d984d0, grpc.default_authority=localhost:8885, grpc.internal.channel_credentials=0x7d984b0, grpc.internal.client_channel_call_destination=0x7f5fa20b03d0, grpc.internal.event_engine=0x7da5d50, grpc.internal.security_connector=0x7d979e0, grpc.internal.subchannel_pool=0x7d965f0, grpc.primary_user_agent=grpc-python/1.65.1, grpc.resource_quota=0x7d98ca0, grpc.server_uri=dns:///localhost:8885}}: connect failed (UNKNOWN:Failed to connect to remote host: connect: Connection refused (111) {created_time:"2024-08-12T12:28:37.575980462+00:00"}), backing off for 1000 ms
+I0000 00:00:1723465717.576494 2271850 subchannel.cc:806] subchannel 0x9158fb0 {address=ipv4:127.0.0.1:8885, args={grpc.client_channel_factory=0x7d984d0, grpc.default_authority=localhost:8885, grpc.internal.channel_credentials=0x7d984b0, grpc.internal.client_channel_call_destination=0x7f5fa20b03d0, grpc.internal.event_engine=0x7d9da00, grpc.internal.security_connector=0x9158c40, grpc.internal.subchannel_pool=0x7d965f0, grpc.primary_user_agent=grpc-python/1.65.1, grpc.resource_quota=0x7d98ca0, grpc.server_uri=dns:///localhost:8885}}: connect failed (UNKNOWN:Failed to connect to remote host: connect: Connection refused (111) {created_time:"2024-08-12T12:28:37.576418594+00:00"}), backing off for 1000 ms
+I0000 00:00:1723465718.576971 2271857 subchannel.cc:761] subchannel 0x9158fb0 {address=ipv4:127.0.0.1:8885, args={grpc.client_channel_factory=0x7d984d0, grpc.default_authority=localhost:8885, grpc.internal.channel_credentials=0x7d984b0, grpc.internal.client_channel_call_destination=0x7f5fa20b03d0, grpc.internal.event_engine=0x7d9da00, grpc.internal.security_connector=0x9158c40, grpc.internal.subchannel_pool=0x7d965f0, grpc.primary_user_agent=grpc-python/1.65.1, grpc.resource_quota=0x7d98ca0, grpc.server_uri=dns:///localhost:8885}}: backoff delay elapsed, reporting IDLE
+I0000 00:00:1723465718.576982 2271854 subchannel.cc:761] subchannel 0x91584d0 {address=ipv6:%5B::1%5D:8885, args={grpc.client_channel_factory=0x7d984d0, grpc.default_authority=localhost:8885, grpc.internal.channel_credentials=0x7d984b0, grpc.internal.client_channel_call_destination=0x7f5fa20b03d0, grpc.internal.event_engine=0x7da5d50, grpc.internal.security_connector=0x7d979e0, grpc.internal.subchannel_pool=0x7d965f0, grpc.primary_user_agent=grpc-python/1.65.1, grpc.resource_quota=0x7d98ca0, grpc.server_uri=dns:///localhost:8885}}: backoff delay elapsed, reporting IDLE
+2024-08-12 12:28:38,834 [ECL] INFO :  Training start!!
+I0000 00:00:1723465719.547372 2271794 work_stealing_thread_pool.cc:320] WorkStealingThreadPoolImpl::PrepareFork
+I0000 00:00:1723465719.547885 2271794 fork_posix.cc:77] Other threads are currently calling into gRPC, skipping fork() handlers
+I0000 00:00:1723465719.554689 2271794 work_stealing_thread_pool.cc:320] WorkStealingThreadPoolImpl::PrepareFork
+I0000 00:00:1723465719.557104 2271794 fork_posix.cc:77] Other threads are currently calling into gRPC, skipping fork() handlers
+I0000 00:00:1723465719.563060 2271794 work_stealing_thread_pool.cc:320] WorkStealingThreadPoolImpl::PrepareFork
+I0000 00:00:1723465719.578405 2271794 work_stealing_thread_pool.cc:320] WorkStealingThreadPoolImpl::PrepareFork
+I0000 00:00:1723465719.578639 2271794 fork_posix.cc:77] Other threads are currently calling into gRPC, skipping fork() handlers
+2024-08-12 12:28:57,554 [ECL] INFO :  [001] loss: 0.223/0.874, diff: 0.00000026, time: 15.56sec
+2024-08-12 12:29:14,468 [ECL] INFO :  Accuracy: 97 %
+2024-08-12 12:29:14,469 [ECL] INFO :      0 : 100 %
+2024-08-12 12:29:14,469 [ECL] INFO :      1 : 95 %
+2024-08-12 12:29:14,469 [ECL] INFO :      2 : 96 %
+2024-08-12 12:29:14,469 [ECL] INFO :      3 : 100 %
+2024-08-12 12:29:14,469 [ECL] INFO :      4 : 100 %
+2024-08-12 12:29:32,084 [ECL] INFO :  [002] loss: 0.054/0.409, diff: 0.00000016, time: 15.14sec
+2024-08-12 12:29:49,719 [ECL] INFO :  [003] loss: 0.033/0.288, diff: 0.00000011, time: 14.98sec
+2024-08-12 12:30:07,347 [ECL] INFO :  [004] loss: 0.025/0.225, diff: 0.00000024, time: 15.01sec
+2024-08-12 12:30:24,710 [ECL] INFO :  [005] loss: 0.019/0.178, diff: 0.00000025, time: 14.74sec
+2024-08-12 12:30:42,215 [ECL] INFO :  [006] loss: 0.016/0.139, diff: 0.00000012, time: 14.93sec
+2024-08-12 12:30:59,894 [ECL] INFO :  [007] loss: 0.013/0.111, diff: 0.00000012, time: 14.83sec
+2024-08-12 12:31:17,587 [ECL] INFO :  [008] loss: 0.012/0.107, diff: 0.00000024, time: 14.89sec
+2024-08-12 12:31:34,878 [ECL] INFO :  [009] loss: 0.011/0.091, diff: 0.00000022, time: 14.53sec
+2024-08-12 12:31:51,937 [ECL] INFO :  [010] loss: 0.009/0.090, diff: 0.00000028, time: 14.65sec
+2024-08-12 12:32:09,183 [ECL] INFO :  Accuracy: 99 %
+2024-08-12 12:32:09,184 [ECL] INFO :      0 : 100 %
+2024-08-12 12:32:09,184 [ECL] INFO :      1 : 99 %
+2024-08-12 12:32:09,184 [ECL] INFO :      2 : 99 %
+2024-08-12 12:32:09,184 [ECL] INFO :      3 : 100 %
+2024-08-12 12:32:09,184 [ECL] INFO :      4 : 100 %
+2024-08-12 12:32:26,811 [ECL] INFO :  [011] loss: 0.008/0.076, diff: 0.00000008, time: 14.85sec
+2024-08-12 12:32:44,402 [ECL] INFO :  [012] loss: 0.008/0.069, diff: 0.00000010, time: 14.69sec
+2024-08-12 12:33:01,641 [ECL] INFO :  [013] loss: 0.008/0.062, diff: 0.00000008, time: 14.35sec
+2024-08-12 12:33:19,205 [ECL] INFO :  [014] loss: 0.007/0.058, diff: 0.00000015, time: 14.69sec
+2024-08-12 12:33:36,498 [ECL] INFO :  [015] loss: 0.006/0.057, diff: 0.00000010, time: 14.25sec
+2024-08-12 12:33:53,887 [ECL] INFO :  [016] loss: 0.006/0.053, diff: 0.00000005, time: 14.48sec
+2024-08-12 12:34:11,662 [ECL] INFO :  [017] loss: 0.005/0.047, diff: 0.00000004, time: 14.78sec
+2024-08-12 12:34:29,294 [ECL] INFO :  [018] loss: 0.005/0.048, diff: 0.00000011, time: 14.43sec
+2024-08-12 12:34:46,960 [ECL] INFO :  [019] loss: 0.005/0.045, diff: 0.00000006, time: 14.68sec
+2024-08-12 12:35:03,558 [ECL] INFO :  [020] loss: 0.005/0.046, diff: 0.00000012, time: 13.80sec
+2024-08-12 12:35:20,867 [ECL] INFO :  Accuracy: 99 %
+2024-08-12 12:35:20,868 [ECL] INFO :      0 : 100 %
+2024-08-12 12:35:20,868 [ECL] INFO :      1 : 99 %
+2024-08-12 12:35:20,868 [ECL] INFO :      2 : 99 %
+2024-08-12 12:35:20,868 [ECL] INFO :      3 : 100 %
+2024-08-12 12:35:20,868 [ECL] INFO :      4 : 100 %
+2024-08-12 12:35:38,153 [ECL] INFO :  [021] loss: 0.004/0.042, diff: 0.00000004, time: 14.36sec
+2024-08-12 12:35:55,853 [ECL] INFO :  [022] loss: 0.004/0.039, diff: 0.00000004, time: 14.54sec
+2024-08-12 12:36:13,052 [ECL] INFO :  [023] loss: 0.004/0.042, diff: 0.00000012, time: 14.11sec
+2024-08-12 12:36:30,356 [ECL] INFO :  [024] loss: 0.004/0.039, diff: 0.00000016, time: 14.19sec
+2024-08-12 12:36:47,562 [ECL] INFO :  [025] loss: 0.004/0.036, diff: 0.00000010, time: 14.07sec
+2024-08-12 12:37:04,978 [ECL] INFO :  [026] loss: 0.003/0.034, diff: 0.00000004, time: 14.35sec
+2024-08-12 12:37:22,116 [ECL] INFO :  [027] loss: 0.003/0.037, diff: 0.00000019, time: 14.11sec
+2024-08-12 12:37:39,348 [ECL] INFO :  [028] loss: 0.003/0.033, diff: 0.00000006, time: 14.20sec
+2024-08-12 12:37:56,732 [ECL] INFO :  [029] loss: 0.003/0.031, diff: 0.00000016, time: 14.06sec
+2024-08-12 12:38:12,992 [ECL] INFO :  [030] loss: 0.003/0.031, diff: 0.00000009, time: 13.58sec
+2024-08-12 12:38:30,561 [ECL] INFO :  Accuracy: 99 %
+2024-08-12 12:38:30,561 [ECL] INFO :      0 : 100 %
+2024-08-12 12:38:30,561 [ECL] INFO :      1 : 99 %
+2024-08-12 12:38:30,561 [ECL] INFO :      2 : 99 %
+2024-08-12 12:38:30,561 [ECL] INFO :      3 : 100 %
+2024-08-12 12:38:30,561 [ECL] INFO :      4 : 100 %
+2024-08-12 12:38:46,960 [ECL] INFO :  [031] loss: 0.003/0.030, diff: 0.00000005, time: 13.40sec
+2024-08-12 12:39:04,563 [ECL] INFO :  [032] loss: 0.003/0.031, diff: 0.00000009, time: 14.50sec
+2024-08-12 12:39:21,902 [ECL] INFO :  [033] loss: 0.003/0.027, diff: 0.00000002, time: 14.23sec
+2024-08-12 12:39:39,234 [ECL] INFO :  [034] loss: 0.003/0.029, diff: 0.00000013, time: 14.26sec
+2024-08-12 12:39:56,567 [ECL] INFO :  [035] loss: 0.003/0.026, diff: 0.00000008, time: 14.19sec
+2024-08-12 12:40:14,088 [ECL] INFO :  [036] loss: 0.002/0.026, diff: 0.00000006, time: 14.37sec
+2024-08-12 12:40:31,607 [ECL] INFO :  [037] loss: 0.002/0.025, diff: 0.00000005, time: 14.22sec
+2024-08-12 12:40:48,973 [ECL] INFO :  [038] loss: 0.002/0.024, diff: 0.00000003, time: 14.50sec
+2024-08-12 12:41:06,829 [ECL] INFO :  [039] loss: 0.002/0.025, diff: 0.00000005, time: 14.45sec
+2024-08-12 12:41:22,851 [ECL] INFO :  [040] loss: 0.002/0.025, diff: 0.00000013, time: 13.19sec
+2024-08-12 12:41:40,491 [ECL] INFO :  Accuracy: 99 %
+2024-08-12 12:41:40,491 [ECL] INFO :      0 : 100 %
+2024-08-12 12:41:40,491 [ECL] INFO :      1 : 99 %
+2024-08-12 12:41:40,491 [ECL] INFO :      2 : 99 %
+2024-08-12 12:41:40,491 [ECL] INFO :      3 : 100 %
+2024-08-12 12:41:40,491 [ECL] INFO :      4 : 100 %
+2024-08-12 12:41:56,939 [ECL] INFO :  [041] loss: 0.002/0.024, diff: 0.00000008, time: 13.38sec
+2024-08-12 12:42:14,445 [ECL] INFO :  [042] loss: 0.002/0.022, diff: 0.00000006, time: 14.18sec
+2024-08-12 12:42:32,085 [ECL] INFO :  [043] loss: 0.002/0.022, diff: 0.00000020, time: 14.32sec
+2024-08-12 12:42:49,245 [ECL] INFO :  [044] loss: 0.002/0.021, diff: 0.00000003, time: 14.25sec
+2024-08-12 12:43:06,790 [ECL] INFO :  [045] loss: 0.002/0.022, diff: 0.00000004, time: 14.06sec
+2024-08-12 12:43:24,141 [ECL] INFO :  [046] loss: 0.002/0.020, diff: 0.00000002, time: 14.35sec
+2024-08-12 12:43:41,344 [ECL] INFO :  [047] loss: 0.002/0.021, diff: 0.00000016, time: 14.18sec
+2024-08-12 12:43:58,872 [ECL] INFO :  [048] loss: 0.002/0.019, diff: 0.00000002, time: 14.15sec
+2024-08-12 12:44:16,290 [ECL] INFO :  [049] loss: 0.002/0.019, diff: 0.00000003, time: 14.13sec
+2024-08-12 12:44:32,159 [ECL] INFO :  [050] loss: 0.002/0.019, diff: 0.00000005, time: 13.20sec
+2024-08-12 12:44:49,070 [ECL] INFO :  Accuracy: 99 %
+2024-08-12 12:44:49,070 [ECL] INFO :      0 : 100 %
+2024-08-12 12:44:49,070 [ECL] INFO :      1 : 99 %
+2024-08-12 12:44:49,070 [ECL] INFO :      2 : 99 %
+2024-08-12 12:44:49,070 [ECL] INFO :      3 : 100 %
+2024-08-12 12:44:49,070 [ECL] INFO :      4 : 100 %
+2024-08-12 12:44:49,072 [ECL] INFO :  Finished Training
+2024-08-12 12:45:05,720 [ECL] INFO :  Accuracy: 99 %
+2024-08-12 12:45:05,720 [ECL] INFO :      0 : 100 %
+2024-08-12 12:45:05,720 [ECL] INFO :      1 : 99 %
+2024-08-12 12:45:05,720 [ECL] INFO :      2 : 99 %
+2024-08-12 12:45:05,720 [ECL] INFO :      3 : 100 %
+2024-08-12 12:45:05,720 [ECL] INFO :      4 : 100 %

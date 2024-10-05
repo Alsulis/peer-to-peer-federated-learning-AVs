@@ -1,0 +1,151 @@
+fitting
+CNN(
+  (hidden_layer): Linear(in_features=9, out_features=128, bias=True)
+  (bcn1): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+  (hidden_layer_2): Linear(in_features=128, out_features=128, bias=True)
+  (bcn2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=False)
+  (output_layer): Linear(in_features=128, out_features=5, bias=True)
+  (loss): CrossEntropyLoss()
+)
+fitting
+Samples for current node:  190972
+Test:
+              precision    recall  f1-score   support
+
+           0     0.6883    1.0000    0.8154      8874
+           1     0.8569    0.9572    0.9043      7353
+           2     0.9986    0.9695    0.9838    210376
+           3     0.9784    1.0000    0.9891      9744
+           4     0.8983    1.0000    0.9464      9185
+
+    accuracy                         0.9725    245532
+   macro avg     0.8841    0.9853    0.9278    245532
+weighted avg     0.9786    0.9725    0.9741    245532
+
+Confusion Matrix:
+[[  8874      0      0      0      0]
+ [     0   7038    293     12     10]
+ [  4018   1175 203950    203   1030]
+ [     0      0      0   9744      0]
+ [     0      0      0      0   9185]]
+Test:
+              precision    recall  f1-score   support
+
+           0     0.9746    1.0000    0.9872      8874
+           1     0.9801    0.9936    0.9868      7353
+           2     0.9998    0.9979    0.9988    210376
+           3     0.9997    1.0000    0.9998      9744
+           4     0.9922    1.0000    0.9961      9185
+
+    accuracy                         0.9980    245532
+   macro avg     0.9893    0.9983    0.9938    245532
+weighted avg     0.9980    0.9980    0.9980    245532
+
+Confusion Matrix:
+[[  8874      0      0      0      0]
+ [     0   7306     43      3      1]
+ [   231    148 209926      0     71]
+ [     0      0      0   9744      0]
+ [     0      0      0      0   9185]]
+Test:
+              precision    recall  f1-score   support
+
+           0     0.9957    1.0000    0.9979      8874
+           1     0.9893    0.9959    0.9926      7353
+           2     0.9999    0.9994    0.9997    210376
+           3     0.9997    1.0000    0.9998      9744
+           4     0.9996    1.0000    0.9998      9185
+
+    accuracy                         0.9994    245532
+   macro avg     0.9968    0.9991    0.9980    245532
+weighted avg     0.9994    0.9994    0.9994    245532
+
+Confusion Matrix:
+[[  8874      0      0      0      0]
+ [     1   7323     26      3      0]
+ [    37     79 210256      0      4]
+ [     0      0      0   9744      0]
+ [     0      0      0      0   9185]]
+Test:
+              precision    recall  f1-score   support
+
+           0     0.9957    1.0000    0.9979      8874
+           1     0.9926    0.9969    0.9947      7353
+           2     0.9999    0.9995    0.9997    210376
+           3     0.9998    1.0000    0.9999      9744
+           4     0.9996    1.0000    0.9998      9185
+
+    accuracy                         0.9995    245532
+   macro avg     0.9975    0.9993    0.9984    245532
+weighted avg     0.9995    0.9995    0.9995    245532
+
+Confusion Matrix:
+[[  8874      0      0      0      0]
+ [     1   7330     20      2      0]
+ [    37     55 210280      0      4]
+ [     0      0      0   9744      0]
+ [     0      0      0      0   9185]]
+Test:
+              precision    recall  f1-score   support
+
+           0     0.9958    1.0000    0.9979      8874
+           1     0.9934    0.9969    0.9951      7353
+           2     0.9999    0.9996    0.9997    210376
+           3     0.9998    1.0000    0.9999      9744
+           4     1.0000    1.0000    1.0000      9185
+
+    accuracy                         0.9996    245532
+   macro avg     0.9978    0.9993    0.9985    245532
+weighted avg     0.9996    0.9996    0.9996    245532
+
+Confusion Matrix:
+[[  8874      0      0      0      0]
+ [     0   7330     21      2      0]
+ [    37     49 210290      0      0]
+ [     0      0      0   9744      0]
+ [     0      0      0      0   9185]]
+Test:
+              precision    recall  f1-score   support
+
+           0     0.9958    1.0000    0.9979      8874
+           1     0.9948    0.9971    0.9960      7353
+           2     0.9999    0.9996    0.9998    210376
+           3     0.9998    1.0000    0.9999      9744
+           4     1.0000    1.0000    1.0000      9185
+
+    accuracy                         0.9996    245532
+   macro avg     0.9981    0.9994    0.9987    245532
+weighted avg     0.9996    0.9996    0.9996    245532
+
+Confusion Matrix:
+[[  8874      0      0      0      0]
+ [     0   7332     19      2      0]
+ [    37     38 210301      0      0]
+ [     0      0      0   9744      0]
+ [     0      0      0      0   9185]]
+Test:
+              precision    recall  f1-score   support
+
+           0     0.9958    1.0000    0.9979      8874
+           1     0.9948    0.9971    0.9960      7353
+           2     0.9999    0.9996    0.9998    210376
+           3     0.9998    1.0000    0.9999      9744
+           4     1.0000    1.0000    1.0000      9185
+
+    accuracy                         0.9996    245532
+   macro avg     0.9981    0.9994    0.9987    245532
+weighted avg     0.9996    0.9996    0.9996    245532
+
+Confusion Matrix:
+[[  8874      0      0      0      0]
+ [     0   7332     19      2      0]
+ [    37     38 210301      0      0]
+ [     0      0      0   9744      0]
+ [     0      0      0      0   9185]]
+
+Weighted Accuracy: 0.9996
+Weighted Precision: 0.9996
+Weighted Recall: 0.9996
+Weighted F1 Score: 0.9996
+
+
