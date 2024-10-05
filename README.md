@@ -70,7 +70,7 @@ The datasets used in this project for training and evaluation include:
 ## Background
 ----------
 
-This project was part of my Master's thesis at Lancaster University, where I pursued a Master's in Cybersecurity. The main objective of the research was to propose and implement a solution for intrusion detection in autonomous vehicles, using a novel federated learning approach to address privacy and resilience concerns associated with traditional centralized systems.
+This project was part of my Master's thesis at Lancaster University, where I pursued a Master's in Cybersecurity. The main objective of the research was to propose and implement a solution for intrusion detection in autonomous vehicles, using a novel federated learning approach to address privacy and resilience concerns associated with traditional centralised systems.
 
 
 
