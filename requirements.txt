@@ -1,6 +1,5 @@
 torch
 torchvision
 numpy
-grpcio
-protobuf
 pandas
+scikit-learn
