@@ -1,6 +1,6 @@
 # Peer-to-Peer Federated Learning Framework for Intrusion Detection in Autonomous Vehicles
 
-This repository contains the implementation of a federated learning framework designed to enhance the cybersecurity of autonomous vehicles (AVs). I completed this project as part of my Master's degree in Cybersecurity at Lancaster University.
+This repository contains the implementation of a federated learning framework designed to enhance the cybersecurity of autonomous vehicles (AVs). I completed this project as part of my Master's in Cybersecurity at Lancaster University.
 
 ## Overview
 
@@ -26,13 +26,12 @@ The code implementing **AdmmSGD** can be found in the folder named **`edgecons`*
 - **NumPy**: For numerical computations.
 - **Pandas**: For data manipulation and preprocessing.
 - **Scikit-Learn**: Used for evaluation metrics and additional machine learning utilities.
-- **Logging and Argument Parsing**: The standard **`logging`** and **`argparse`** modules manage output and configure script parameters.
 
 ## Installation
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/your-username/peer-to-peer-federated-learning-AVs.git
+   git clone https://github.com/Alsulis/peer-to-peer-federated-learning-AVs.git
 
 2. **Navigate to the project directory:**
    cd peer-to-peer-federated-learning-AVs
