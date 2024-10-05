@@ -1,0 +1,104 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1723814704.020116  348197 config.cc:230] gRPC experiments enabled: call_status_override_on_cancellation, event_engine_dns, event_engine_listener, http2_stats_fix, monitoring_experiment, pick_first_new, trace_record_callops, work_serializer_clears_time_cache
+2024-08-16 13:25:04,280 [ECL] INFO :  Training start!!
+I0000 00:00:1723814704.695569  348197 work_stealing_thread_pool.cc:320] WorkStealingThreadPoolImpl::PrepareFork
+I0000 00:00:1723814704.695782  348197 fork_posix.cc:77] Other threads are currently calling into gRPC, skipping fork() handlers
+I0000 00:00:1723814704.707432  348197 work_stealing_thread_pool.cc:320] WorkStealingThreadPoolImpl::PrepareFork
+I0000 00:00:1723814704.717200  348197 work_stealing_thread_pool.cc:320] WorkStealingThreadPoolImpl::PrepareFork
+I0000 00:00:1723814704.721951  348197 fork_posix.cc:77] Other threads are currently calling into gRPC, skipping fork() handlers
+I0000 00:00:1723814704.730611  348197 work_stealing_thread_pool.cc:320] WorkStealingThreadPoolImpl::PrepareFork
+I0000 00:00:1723814704.740910  348197 fork_posix.cc:77] Other threads are currently calling into gRPC, skipping fork() handlers
+2024-08-16 13:25:22,166 [ECL] INFO :  [001] loss: 0.267/1.189, diff: 0.00000085, time: 15.16sec
+2024-08-16 13:25:38,104 [ECL] INFO :  Accuracy: 92 %
+2024-08-16 13:25:38,105 [ECL] INFO :      0 : 100 %
+2024-08-16 13:25:38,105 [ECL] INFO :      1 : 94 %
+2024-08-16 13:25:38,105 [ECL] INFO :      2 : 91 %
+2024-08-16 13:25:38,105 [ECL] INFO :      3 : 100 %
+2024-08-16 13:25:38,105 [ECL] INFO :      4 : 100 %
+2024-08-16 13:25:55,139 [ECL] INFO :  [002] loss: 0.064/0.833, diff: 0.00000111, time: 14.81sec
+2024-08-16 13:26:12,262 [ECL] INFO :  [003] loss: 0.043/0.640, diff: 0.00000179, time: 14.70sec
+2024-08-16 13:26:29,155 [ECL] INFO :  [004] loss: 0.034/0.554, diff: 0.00000475, time: 14.52sec
+2024-08-16 13:26:46,301 [ECL] INFO :  [005] loss: 0.029/0.628, diff: 0.00002351, time: 14.52sec
+2024-08-16 13:27:03,201 [ECL] INFO :  [006] loss: 0.026/0.508, diff: 0.00001522, time: 14.47sec
+2024-08-16 13:27:19,981 [ECL] INFO :  [007] loss: 0.022/0.380, diff: 0.00000055, time: 14.32sec
+2024-08-16 13:27:37,016 [ECL] INFO :  [008] loss: 0.020/0.481, diff: 0.00000317, time: 14.45sec
+2024-08-16 13:27:53,427 [ECL] INFO :  [009] loss: 0.018/0.334, diff: 0.00000085, time: 13.94sec
+2024-08-16 13:28:09,800 [ECL] INFO :  [010] loss: 0.016/0.310, diff: 0.00000100, time: 13.94sec
+2024-08-16 13:28:25,596 [ECL] INFO :  Accuracy: 98 %
+2024-08-16 13:28:25,596 [ECL] INFO :      0 : 100 %
+2024-08-16 13:28:25,596 [ECL] INFO :      1 : 98 %
+2024-08-16 13:28:25,597 [ECL] INFO :      2 : 98 %
+2024-08-16 13:28:25,597 [ECL] INFO :      3 : 100 %
+2024-08-16 13:28:25,597 [ECL] INFO :      4 : 100 %
+2024-08-16 13:28:42,221 [ECL] INFO :  [011] loss: 0.014/0.279, diff: 0.00002036, time: 14.07sec
+2024-08-16 13:28:59,056 [ECL] INFO :  [012] loss: 0.014/0.251, diff: 0.00000104, time: 14.13sec
+2024-08-16 13:29:15,676 [ECL] INFO :  [013] loss: 0.014/0.285, diff: 0.00000023, time: 14.00sec
+2024-08-16 13:29:32,462 [ECL] INFO :  [014] loss: 0.013/0.240, diff: 0.00000449, time: 14.14sec
+2024-08-16 13:29:49,055 [ECL] INFO :  [015] loss: 0.012/0.231, diff: 0.00000104, time: 13.79sec
+2024-08-16 13:30:05,452 [ECL] INFO :  [016] loss: 0.012/0.242, diff: 0.00000105, time: 13.69sec
+2024-08-16 13:30:22,024 [ECL] INFO :  [017] loss: 0.011/0.169, diff: 0.00000070, time: 13.82sec
+2024-08-16 13:30:38,756 [ECL] INFO :  [018] loss: 0.011/0.208, diff: 0.00000016, time: 13.88sec
+2024-08-16 13:30:55,481 [ECL] INFO :  [019] loss: 0.011/0.091, diff: 0.00001262, time: 13.77sec
+2024-08-16 13:31:12,055 [ECL] INFO :  [020] loss: 0.011/0.166, diff: 0.00000013, time: 14.11sec
+2024-08-16 13:31:27,997 [ECL] INFO :  Accuracy: 99 %
+2024-08-16 13:31:27,997 [ECL] INFO :      0 : 100 %
+2024-08-16 13:31:27,997 [ECL] INFO :      1 : 99 %
+2024-08-16 13:31:27,997 [ECL] INFO :      2 : 99 %
+2024-08-16 13:31:27,997 [ECL] INFO :      3 : 100 %
+2024-08-16 13:31:27,997 [ECL] INFO :      4 : 100 %
+2024-08-16 13:31:44,601 [ECL] INFO :  [021] loss: 0.010/0.165, diff: 0.00000049, time: 13.79sec
+2024-08-16 13:32:01,404 [ECL] INFO :  [022] loss: 0.011/0.174, diff: 0.00000164, time: 13.91sec
+2024-08-16 13:32:18,225 [ECL] INFO :  [023] loss: 0.010/0.135, diff: 0.00000037, time: 13.86sec
+2024-08-16 13:32:35,559 [ECL] INFO :  [024] loss: 0.009/0.137, diff: 0.00000015, time: 14.30sec
+2024-08-16 13:32:52,564 [ECL] INFO :  [025] loss: 0.008/0.157, diff: 0.00000414, time: 14.05sec
+2024-08-16 13:33:09,340 [ECL] INFO :  [026] loss: 0.009/0.130, diff: 0.00000026, time: 13.83sec
+2024-08-16 13:33:26,140 [ECL] INFO :  [027] loss: 0.008/0.116, diff: 0.00000011, time: 13.92sec
+2024-08-16 13:33:43,135 [ECL] INFO :  [028] loss: 0.009/0.139, diff: 0.00000289, time: 13.97sec
+2024-08-16 13:34:00,265 [ECL] INFO :  [029] loss: 0.009/0.114, diff: 0.00000094, time: 13.84sec
+2024-08-16 13:34:16,972 [ECL] INFO :  [030] loss: 0.011/0.118, diff: 0.00000447, time: 14.07sec
+2024-08-16 13:34:33,157 [ECL] INFO :  Accuracy: 99 %
+2024-08-16 13:34:33,157 [ECL] INFO :      0 : 100 %
+2024-08-16 13:34:33,157 [ECL] INFO :      1 : 98 %
+2024-08-16 13:34:33,157 [ECL] INFO :      2 : 99 %
+2024-08-16 13:34:33,157 [ECL] INFO :      3 : 100 %
+2024-08-16 13:34:33,157 [ECL] INFO :      4 : 100 %
+2024-08-16 13:34:50,077 [ECL] INFO :  [031] loss: 0.010/0.112, diff: 0.00000013, time: 13.59sec
+2024-08-16 13:35:07,021 [ECL] INFO :  [032] loss: 0.008/0.101, diff: 0.00000035, time: 13.82sec
+2024-08-16 13:35:23,752 [ECL] INFO :  [033] loss: 0.008/0.100, diff: 0.00000003, time: 13.55sec
+2024-08-16 13:35:40,703 [ECL] INFO :  [034] loss: 0.007/0.087, diff: 0.00000814, time: 14.15sec
+2024-08-16 13:35:57,437 [ECL] INFO :  [035] loss: 0.007/0.095, diff: 0.00000721, time: 13.62sec
+2024-08-16 13:36:14,339 [ECL] INFO :  [036] loss: 0.008/0.082, diff: 0.00000061, time: 13.89sec
+2024-08-16 13:36:31,251 [ECL] INFO :  [037] loss: 0.007/0.083, diff: 0.00000006, time: 13.96sec
+2024-08-16 13:36:47,637 [ECL] INFO :  [038] loss: 0.007/0.077, diff: 0.00000050, time: 13.40sec
+2024-08-16 13:37:04,545 [ECL] INFO :  [039] loss: 0.006/0.072, diff: 0.00000011, time: 13.80sec
+2024-08-16 13:37:21,129 [ECL] INFO :  [040] loss: 0.006/0.067, diff: 0.00000090, time: 13.98sec
+2024-08-16 13:37:37,654 [ECL] INFO :  Accuracy: 99 %
+2024-08-16 13:37:37,654 [ECL] INFO :      0 : 100 %
+2024-08-16 13:37:37,654 [ECL] INFO :      1 : 99 %
+2024-08-16 13:37:37,654 [ECL] INFO :      2 : 99 %
+2024-08-16 13:37:37,654 [ECL] INFO :      3 : 100 %
+2024-08-16 13:37:37,655 [ECL] INFO :      4 : 100 %
+2024-08-16 13:37:54,283 [ECL] INFO :  [041] loss: 0.006/0.080, diff: 0.00003165, time: 13.56sec
+2024-08-16 13:38:11,180 [ECL] INFO :  [042] loss: 0.006/0.069, diff: 0.00000025, time: 13.84sec
+2024-08-16 13:38:27,912 [ECL] INFO :  [043] loss: 0.008/0.076, diff: 0.00000448, time: 13.54sec
+2024-08-16 13:38:44,542 [ECL] INFO :  [044] loss: 0.006/0.070, diff: 0.00000017, time: 13.49sec
+2024-08-16 13:39:01,008 [ECL] INFO :  [045] loss: 0.006/0.070, diff: 0.00000626, time: 13.65sec
+2024-08-16 13:39:17,933 [ECL] INFO :  [046] loss: 0.006/0.071, diff: 0.00000013, time: 13.77sec
+2024-08-16 13:39:34,972 [ECL] INFO :  [047] loss: 0.007/0.066, diff: 0.00000599, time: 13.69sec
+2024-08-16 13:39:52,053 [ECL] INFO :  [048] loss: 0.006/0.069, diff: 0.00000019, time: 13.96sec
+2024-08-16 13:40:09,047 [ECL] INFO :  [049] loss: 0.006/0.043, diff: 0.00003664, time: 13.92sec
+2024-08-16 13:40:24,884 [ECL] INFO :  [050] loss: 0.006/0.060, diff: 0.00000037, time: 13.28sec
+2024-08-16 13:40:41,031 [ECL] INFO :  Accuracy: 99 %
+2024-08-16 13:40:41,031 [ECL] INFO :      0 : 100 %
+2024-08-16 13:40:41,031 [ECL] INFO :      1 : 99 %
+2024-08-16 13:40:41,031 [ECL] INFO :      2 : 99 %
+2024-08-16 13:40:41,031 [ECL] INFO :      3 : 100 %
+2024-08-16 13:40:41,031 [ECL] INFO :      4 : 100 %
+2024-08-16 13:40:41,033 [ECL] INFO :  Finished Training
+2024-08-16 13:40:56,974 [ECL] INFO :  Accuracy: 99 %
+2024-08-16 13:40:56,974 [ECL] INFO :      0 : 100 %
+2024-08-16 13:40:56,974 [ECL] INFO :      1 : 99 %
+2024-08-16 13:40:56,974 [ECL] INFO :      2 : 99 %
+2024-08-16 13:40:56,974 [ECL] INFO :      3 : 100 %
+2024-08-16 13:40:56,974 [ECL] INFO :      4 : 100 %
+terminate called without an active exception
